@@ -23,4 +23,3 @@ print ("file size:%sbyte" % (fsize))
 print "MD5:\t" + hashlib.md5(cont).hexdigest()
 print "SHA1:\t" + hashlib.sha1(cont).hexdigest()
 print "SHA256:\t" + hashlib.sha256(cont).hexdigest()
-
