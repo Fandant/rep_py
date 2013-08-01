@@ -7,7 +7,7 @@ import hashlib
 argvl = sys.argv
 argc = len(argvl)
 if argc != 2 :
-	print "usage:python %s filenme" % argvl[0]
+	print "usage:python %s filename" % argvl[0]
 	quit()
 
 fsize = os.path.getsize(argvl[1])
